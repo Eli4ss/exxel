@@ -44,7 +44,6 @@ ml-dtypes==0.1.0
 mysql==0.0.3
 mysqlclient==2.2.0
 nbformat==4.2.0
-netron==7.0.7
 numpy==1.23.5
 oauthlib==3.2.2
 opt-einsum==3.3.0
@@ -83,16 +82,4 @@ tensorflow-addons==0.20.0
 tensorflow-estimator==2.12.0
 tensorflow-intel==2.12.0
 tensorflow-io-gcs-filesystem==0.31.0
-termcolor==2.3.0
-threadpoolctl==3.1.0
-toml==0.10.2
-toolz==0.12.0
-tornado==6.3.2
-typeguard==2.13.3
-tzdata==2023.3
-tzlocal==4.3.1
-urllib3==1.26.16
-validators==0.20.0
-watchdog==3.0.0
-Werkzeug==2.3.7
-wrapt==1.14.1
+
