@@ -1,4 +1,4 @@
-python==3.8.16
+python==3.8
 Flask==2.3.3
 jsonschema==4.17.3
 keras==2.12.0
