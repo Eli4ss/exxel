@@ -28,3 +28,13 @@ stack-data==0.6.2
 tornado==6.3.1
 traitlets==5.9.0
 wcwidth==0.2.6
+python==3.8.16
+Flask==2.3.3
+pyodbc==4.0.39
+pandas==2.0.2
+numpy==1.23.5
+scikit-learn==1.2.2
+tensorflow==2.12.0
+keras==2.12.0
+gunicorn==21.2.0
+
