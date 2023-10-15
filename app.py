@@ -6,9 +6,7 @@ import pickle
 from models import User  # Import your User model here
 from keras.models import load_model
 from random import randint
-import os
-port = int(os.environ.get("PORT", 5000))
-app.run(host='0.0.0.0', port=port)
+
 
 
 app = Flask(__name__, static_folder='static')
@@ -146,7 +144,7 @@ def mixture_melt():
         X = todataset(df_dataset,component_count)        
         X_melt_theorique = df_dataset['melt_theorique'].values
         X_pred = [X,X_melt_theorique]
-        model = load_model("models\Models_Melange\model"+str(component_count)+".h5")
+        model = load_model("models/Models_Melange/model"+str(component_count)+".h5")
         prediction_mixture = pred(X_pred,model)
         prediction_mixture = prediction_mixture[0][0]
                  # Render the template with the prediction result
@@ -260,4 +258,4 @@ def cendre():
     return render_template('cendre.html', predicted_cendre=predicted_cendre)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True)

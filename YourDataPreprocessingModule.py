@@ -8,9 +8,9 @@ from sklearn.preprocessing import OneHotEncoder
 import tensorflow as tf
 import pickle
 
-data_f = pd.read_csv(r'dataset\flexdb.csv')
-data_m = pd.read_csv('dataset\dbcleaned2.csv')
-data = pd.read_csv('dataset\izodedb.csv')
+data_f = pd.read_csv('dataset/flexdb.csv')
+data_m = pd.read_csv('dataset/dbcleaned2.csv')
+data = pd.read_csv('dataset/izodedb.csv')
 
 #function to preprocess data for izod prediction
 def perform_one_hot_encoding2(input_data):
